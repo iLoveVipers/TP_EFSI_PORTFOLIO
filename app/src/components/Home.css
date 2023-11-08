@@ -12,6 +12,7 @@ h4 {
 
 .tituloProyecto{
     font-size: 3rem;
+    color: #8c0d13;
 }
 
 .centrarJust {
@@ -82,7 +83,7 @@ a{
 }
 
 .estiloBoton{
-    background-color: transparent;
+    background-color: #ff202b4f;
     color: #ffffff;
     border-color: #ffffff;
     border-radius: 5rem;

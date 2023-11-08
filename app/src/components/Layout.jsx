@@ -14,9 +14,11 @@ const Layout = () => {
     const { favoritos, setFavoritos } = useContext(FavoritosContext)
     return (
         <div className="layout-container">
-            <Navbar expand="lg" className="bg-body-tertiary fixed-top">
+            <Navbar bg="dark" data-bs-theme="dark" expand="lg" className="bg-body-tertiary fixed-top">
                 <Container>
-                    <Navbar.Brand className="espacio">Martina Guy</Navbar.Brand>
+                    <Navbar.Brand className="espacio Ntext">
+                        <strong>Martina Guy</strong>
+                        </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="justify-content-end">

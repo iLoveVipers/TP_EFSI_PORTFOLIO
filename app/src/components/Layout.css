@@ -1,10 +1,16 @@
 .linkEstilo {
-    color: black;
-    text-decoration-line: none;
+    color: #ffd4d7;
+    text-decoration-line:none;
 }
 
 .espacio{
-    margin-right: 2rem;
+    margin-right: 2.5rem;
+    
+}
+
+.Ntext{
+    text-decoration:double ;
+    color: red;
 }
 
 .imagenTamaño{

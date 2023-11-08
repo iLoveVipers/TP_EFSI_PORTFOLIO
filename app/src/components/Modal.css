@@ -13,9 +13,9 @@
   }
   
   .modal-header {
-    .close {
+  
       margin-top: -1.5rem;
-    }
+    
   }
   
   .form-title {
@@ -31,9 +31,9 @@
   }
   
   .social-buttons {
-    .btn {
+      color: firebrick;
       margin: 0 0.5rem 1rem;
-    }
+    
   }
   
   .signup-section {

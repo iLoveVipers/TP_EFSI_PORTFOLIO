@@ -53,7 +53,7 @@ const Favoritos = (props) => {
                 <Modal.Header closeButton>
                     <Modal.Title>Login in</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>
+                <Modal.Body class="mmodal">
                     <Form>
                         <Form.Group controlId="formBasicName">
                             <Form.Label>Mail</Form.Label>
@@ -77,7 +77,7 @@ const Favoritos = (props) => {
                     <Button variant="secondary" onClick={handleClose}>
                         Cerrar
                     </Button>
-                    <Button variant="primary" onClick={HandleSubmit}>
+                    <Button variant="danger" onClick={HandleSubmit}>
                         Enviar
                     </Button>
                 </Modal.Footer>
