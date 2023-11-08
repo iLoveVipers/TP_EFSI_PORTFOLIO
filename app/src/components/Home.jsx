@@ -26,7 +26,7 @@ const Home = (props) => {
                         <Favorito id={creaciones.id}/>
                     </div>
                     <div className='separacion'>
-                        <img className='imagen' src={creaciones.imagen ? creaciones.imagen : 'https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg'}/>
+                        <img className='imagen' src={creaciones.imagen ? creaciones.imagen : 'https://64.media.tumblr.com/217302a7b695b12710a6ef1d8e9bf784/tumblr_phxcz5Tme21w7jnxz_500.jpg'}/>
                     </div>
                 </div>
                 

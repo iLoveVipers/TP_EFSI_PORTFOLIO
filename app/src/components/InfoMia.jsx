@@ -7,8 +7,8 @@ const InfoMia = (props) => {
   return (
     <div>
       <h1 className='margengrande'>Martina Guy</h1>
-      <h1 className=''>5IA ORT</h1>
-      <h1 className=''>2023</h1>
+      <h1 className='text'>5IA ORT</h1>
+      <h1 className='text'>2023</h1>
     </div>
   )
 }

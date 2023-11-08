@@ -30,9 +30,10 @@
 
 footer {
     bottom: 0;
+    color: white;
     left: 0;
     width: 100%;
-    background-color: #f8f9fa;
+    background-color: #8c0d13;
     padding: 1rem;
     z-index: 100;
 }
@@ -59,6 +60,10 @@ footer {
     color: black;
     margin-right: 3rem;
 }
+.text{
+    color: rgb(229, 61, 61);
+    
+  }
 
 .izquierda{
     display: flex;

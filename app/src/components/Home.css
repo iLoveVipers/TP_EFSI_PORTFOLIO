@@ -1,13 +1,13 @@
 @font-face {
-    font-family: 'NextBro';
-    src: local('NextBro'), url(../assets/Fonts/next_bro/NextBro.otf) format('opentype');
+    font-family: 'Cardanaya';
+    src: local('NextBro'), url(../assets/Fonts/Cardanaya\ Font.ttf) format('opentype');
 }
 
 h1,
 h2,
 h4 {
     text-align: center;
-    color: #fff;
+    color: rgb(255, 255, 255)f;
 }
 
 .tituloProyecto{
@@ -22,9 +22,9 @@ h4 {
 .tituloPrincipal {
     display: flex;
     justify-content: flex-start;
-    font-family: NextBro;
+    font-family: Cardanaya;
     font-size: 10rem;
-    color: #ffffff;
+    color: #8c0d13;
     margin-top: 10rem;
     margin-bottom: 10rem;
 }
@@ -66,6 +66,11 @@ a{
     transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
     transition-delay: 0s;
     transition-property: border-radius;
+}
+
+.navbar{
+    color: white;
+    background-color: #8c0d13;
 }
 
 .separacion{
@@ -113,7 +118,7 @@ p {
 .paginacion button {
     padding: 5px 10px;
     margin: 0 5px;
-    background-color: #007bff;
+    background-color: #8c0d13;
     color: #fff;
     border: none;
     cursor: pointer;
